@@ -1,0 +1,31 @@
+{
+    "author": "TheEffectThecause",
+    "build": "99377",
+    "context": "server",
+    "date": "2017-10-23",
+    "description": "The Commander is Deadly! Its health regenerates, its speed is increased, its build power and firepower also!! A mini radar mine for the scout plane and the orbital probe can act as an orbital Boom bot!!! Increase the Experience! Download Today.",
+    "display_name": "Super Commander",
+    "forum": "http://steamcommunity.com/app/386070/discussions/0/3182216552781282592/",
+    "identifier": "uk.pa.tetcsupcom",
+    "priority": 100,
+    "version": "1",
+    "titansOnly": true,
+    "hidden": false,
+    "unitList": true,
+    "fileSystem": false,
+    "searchable": [
+    "TheEffectTheCause"
+    ],
+    "sort": "SuperCommander",
+    "authors": [
+        "TheEffectTheCause"
+    ],
+    "timestamp": 1488412800000,
+    "companions": [],
+    "framework": false,
+    "available": true,
+    "enabled": true,
+    "classicOnly": false,
+    "classic": false,
+    "titans": true
+}

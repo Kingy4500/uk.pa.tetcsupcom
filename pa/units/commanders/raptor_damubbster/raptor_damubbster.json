@@ -1,0 +1,94 @@
+{
+  "base_spec": "/pa/units/commanders/raptor_base/raptor_base.json",
+  "display_name": "Damubbster Commander",
+  "description": "Raptor Damubbster Commander",
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "head": [
+        0,
+        -0.5,
+        10.6
+      ]
+    }
+  },
+  "model": {
+    "filename": "/pa/units/commanders/raptor_damubbster/raptor_damubbster.papa"
+  },
+  "headlights": [
+    {
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "offset": [
+        0,
+        -2.149,
+        1.488
+      ],
+      "orientation": [
+        0,
+        45,
+        0
+      ],
+      "near_width": 5,
+      "near_height": 5,
+      "near_distance": 3,
+      "far_distance": 30,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "intensity": 6,
+      "bone": "bone_spine",
+      "shadow_resolution": 128
+    }
+  ],
+  "lamps": [
+    {
+      "offset": [
+        0,
+        -4.2,
+        2.1
+      ],
+      "radius": 2,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "intensity": 5,
+      "bone": "bone_spine"
+    },
+    {
+      "offset": [
+        0.4,
+        3.46,
+        -1.1
+      ],
+      "radius": 4,
+      "color": [
+        0.4,
+        1,
+        0.01
+      ],
+      "intensity": 2,
+      "bone": "bone_leftShoulder"
+    }
+  ],
+  "mesh_bounds": [
+    11.7,
+    8.71255,
+    11.1
+  ],
+  "catalog_object_name": "RaptorDamubbster",
+  "client": {
+    "ui": {
+      "image": "/ui/main/shared/img/commanders/img_raptor_damubbster.png",
+      "thumb_image": "/ui/main/shared/img/commanders/thumbs/img_raptor_damubbster_thumb.png",
+      "profile_image": "/ui/main/shared/img/commanders/profiles/profile_raptor_damubbster.png"
+    }
+  }
+}
