@@ -1,0 +1,88 @@
+{
+	"TEMP_texelinfo": 2.37699,
+	"area_build_separation": 1.0,
+	"area_build_type": "Sphere",
+	"consumption": {
+		"energy": 150
+	},
+	"build_metal_cost": 50,
+	"description": "!LOC:Radar mine- Provides a short range of radar and sight.",
+	"display_name": "!LOC:Radar Mine",
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/barrier"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/barrier",
+			"effect_spec": "/pa/effects/specs/default_explosion_bot.pfx"
+		}
+	},
+	"max_health": 10,
+	"mesh_bounds": [
+		4.0,
+		4.0,
+		1.0
+	],
+	"model": {
+		"filename": "/pa/units/sea/sea_mine/sea_mine.papa"
+	},
+	"fx_offsets": [
+    {
+      "bone": "bone_root",
+      "filename": "/pa/units/air/air_scout/smine/smine_radar_on.pfx",
+      "type": "energy"
+    }
+  ],
+	"physics": {
+		"allow_pushing": false,
+		"allow_underground": false,
+		"collide_with_types": [
+			"Projectile"
+		],
+		"collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+		"push_sideways": false,
+		"radius": 1,
+		"shape": "Box",
+		"type": "Structure"
+	},
+	"recon": {
+		"observable": {
+			"layer": "mine"
+		},
+		"observer": {
+			"items": [{
+					"channel": "sight",
+					"layer": "surface_and_air",
+					"radius": 0,
+					"shape": "capsule",
+					"uses_energy": true
+				}, {
+					"channel": "radar",
+					"layer": "surface_and_air",
+					"radius": 180,
+					"shape": "capsule",
+					"uses_energy": true
+				}, {
+					"channel": "sight",
+					"layer": "underwater",
+					"radius": 0,
+					"shape": "capsule",
+					"uses_energy": true
+				}, {
+					"channel": "radar",
+					"layer": "underwater",
+					"radius": 180,
+					"shape": "capsule",
+					"uses_energy": true
+				}
+			]
+		}
+	},
+	"selection_icon": {
+		"diameter": 7.0
+	},
+	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
+	"strategic_icon_priority": 3,
+	"unit_types": ["UNITTYPE_Scout","UNITTYPE_Structure", "UNITTYPE_Land", "UNITTYPE_Naval", "UNITTYPE_Defense", "UNITTYPE_CombatFabBuild", "UNITTYPE_CombatFabAdvBuild"],
+	"wreckage_health_frac": 0.0
+}

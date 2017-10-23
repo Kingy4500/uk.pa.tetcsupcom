@@ -1,0 +1,16 @@
+{
+  "base_spec": "/pa/ammo/base_bomb/base_bomb.json",
+  "damage": 0,
+  "full_damage_splash_radius": 0,
+  "initial_velocity": 15.0,
+  "max_velocity": 15.0,
+  "model": {
+    "filename": "/pa/units/sea/sea_mine/sea_mine.papa"
+  },
+  "physics": {
+    "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"
+  },
+  "spawn_unit_on_death": "/pa/units/air/air_scout/smine/smine.json",
+  "splash_damage": 0,
+  "splash_radius": 0
+}
