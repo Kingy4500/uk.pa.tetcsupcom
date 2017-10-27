@@ -1,7 +1,7 @@
 {
 	"tool_type": "TOOL_Weapon",
 	"ammo_id": "/pa/tools/uber_cannon/uber_cannon_ammo.json",
-	"target_layers": ["WL_LandHorizontal", "WL_WaterSurface", "WL_Air"],
+	"target_layers": ["WL_LandHorizontal", "WL_WaterSurface", "WL_Underwater", "WL_Seafloor", "WL_Air"],
 	"idle_aim_delay": 0.0,
 	"ammo_source": "energy",
 	"ammo_capacity": 40000,
