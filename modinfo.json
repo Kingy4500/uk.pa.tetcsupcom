@@ -8,7 +8,7 @@
     "forum": "https://forums.uberent.com/threads/super-commander-mod.72641/",
     "icon": "https://i.imgur.com/ibirra7.jpg",
     "identifier": "uk.pa.tetcsupcom",
-    "priority": 100,
+    "priority": 99,
     "version": "1",
     "titansOnly": true,
     "hidden": false,
