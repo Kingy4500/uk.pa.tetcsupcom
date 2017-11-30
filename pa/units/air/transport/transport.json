@@ -2,8 +2,8 @@
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"display_name": "!LOC:Pelican",
 	"description": "!LOC:Air Transport- Load a land unit for rapid long distance travel.",
-	"max_health": 40,
-	"build_metal_cost": 100,
+	"max_health": 80,
+	"build_metal_cost": 130,
 	"usable": true,
 	"attachable": {
 		"offsets": {
@@ -42,7 +42,7 @@
 	},
 	"transporter": {
 		"capacity": 1,
-		"transportable_unit_types": "Mobile & Land & Commander",
+		"transportable_unit_types": "Mobile & Land - Commander",
 		"transporter_attach_bone": "bone_payload",
 		"transportable_attach_offset": "head"
 	},
@@ -102,3 +102,4 @@
 	},
 	"mesh_bounds": [13.5, 13.5, 4.7]
 }
+
