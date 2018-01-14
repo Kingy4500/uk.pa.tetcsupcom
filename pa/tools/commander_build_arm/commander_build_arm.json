@@ -3,7 +3,7 @@
 	"max_range": 50,
 	"construction_demand": {
 		"energy": 1750,
-		"metal": 55
+		"metal": 45
 	},
 	"yaw_rate": 90,
 	"pitch_rate": 90,
