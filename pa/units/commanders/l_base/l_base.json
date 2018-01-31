@@ -11,8 +11,8 @@
       "type": "build"
     }
   ],
-  "selection_icon": {
-    "diameter": -16.6
+  "navigation": {
+    "move_speed": 11
   },
   "si_name": "l_commander",
   "unit_types": [
