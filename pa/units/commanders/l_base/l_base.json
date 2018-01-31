@@ -15,6 +15,14 @@
   "navigation": {
     "move_speed": 10
   },
+  "tools": [
+    {
+      "spec_id": "/pa/tools/uber_cannon/uber_cannon_l.json",
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+      "secondary_weapon": true
+    }
+  ],
   "si_name": "l_commander",
   "unit_types": [
     "UNITTYPE_Commander",
@@ -26,3 +34,4 @@
     "UNITTYPE_Custom1"
   ]
 }
+
