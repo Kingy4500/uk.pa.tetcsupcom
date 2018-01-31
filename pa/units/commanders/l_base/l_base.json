@@ -3,6 +3,7 @@
   "description": "Legion Class Commander. - If you're seeing this, something is wrong in your commander.",
   "base_spec": "/pa/units/commanders/base_commander/base_commander.json",
   "buildable_types": "CmdBuild & Custom1",
+  "max_health": 20000,
   "custom": true,
   "fx_offsets": [
     {
@@ -12,7 +13,7 @@
     }
   ],
   "navigation": {
-    "move_speed": 11
+    "move_speed": 10
   },
   "si_name": "l_commander",
   "unit_types": [
