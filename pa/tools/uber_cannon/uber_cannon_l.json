@@ -5,7 +5,7 @@
 			"id": "/pa/tools/uber_cannon/uber_cannon_naval_ammo.json"
 		}, {
 			"layer": "WL_AnyLand",
-			"id": "/pa/tools/uber_cannon/uber_cannon_ammo_l.json"
+			"id": "/pa/ammo/l_cannon_uber/l_cannon_uber.json"
 		}
 	],
 	"idle_aim_delay": 0.0,
@@ -23,3 +23,4 @@
 	"manual_fire": true,
 	"auto_task_type": "none"
 }
+
