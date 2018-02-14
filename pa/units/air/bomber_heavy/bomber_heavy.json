@@ -2,7 +2,7 @@
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"display_name": "!LOC:Wyrm",
 	"description": "!LOC:Siege Bomber- Durable. Slow. Devastating damage. Attacks land and sea targets.",
-	"max_health": 2250,
+	"max_health": 2450,
 	"build_metal_cost": 3300,
 	"unit_types": ["UNITTYPE_Bomber", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Air", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],
 	"guard_radius": 120,
