@@ -9,16 +9,11 @@
     "icon": "https://i.imgur.com/ibirra7.jpg",
     "identifier": "uk.pa.tetcsupcom",
     "priority": 99,
-    "version": "1.4.5",
+    "version": "1.4.6",
     "titansOnly": true,
     "hidden": false,
     "unitList": true,
     "fileSystem": false,
-    "Scenes": {
-        "new_game": [
-            "coui://ui/mods/uk.pa.tetcsupcom/lobby.js"
-        ]
-    },
     "searchable": [
     "TheEffectTheCause"
     ],
@@ -33,5 +28,12 @@
     "enabled": true,
     "classicOnly": false,
     "classic": false,
-    "titans": true
+    "titans": true,
+	"scenes": {
+
+		"new_game": ["coui://ui/mods/uk.pa.tetcsupcom/new_game.js"]
+
+	}
+
 }
+
