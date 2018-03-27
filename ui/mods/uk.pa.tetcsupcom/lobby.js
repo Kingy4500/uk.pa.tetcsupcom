@@ -1,4 +1,4 @@
-$(document).ready(function () {
+(function(){
 	
 	model.localChatMessage('Super Commander', 'Super Commander Mod is enabled on this lobby. ' +
 		'In this mod your Commander is faster, has more armour' +
