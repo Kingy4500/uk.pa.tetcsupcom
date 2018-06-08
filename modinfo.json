@@ -13,11 +13,6 @@
     "category": [
         "gameplay"
     ],
-    "scenes": {
-        "new_game": [
-            "coui://ui/mods/uk.pa.tetcsupcom/new_game.js"
-        ]
-    },
     "searchable": [
         "super",
         "commander",
