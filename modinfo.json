@@ -15,7 +15,9 @@
     ],
     "scenes":
     {
-        "newgame": "coui//mods/uk.pa.tetcsupcom/new_game.js"
+        "newgame": [
+            "coui//mods/uk.pa.tetcsupcom/new_game.js"
+        ]
     },
     "searchable": [
         "Comboxing",
