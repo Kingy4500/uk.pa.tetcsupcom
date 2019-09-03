@@ -2,7 +2,7 @@
     "context": "server",
     "identifier": "uk.pa.tetcsupcom",
     "display_name": "The Super Commander Mod",
-    "description": "Makes the commander a powerhouse on the field with an upgraded uber cannon, health, speed and build arm. Edit: Removed orbital probes ability to be used as an orbital boom bot as it could damage ground units and be used as a cheap snipe.",
+    "description": "Makes the commander a powerhouse on the field with an upgraded uber cannon, health, speed and build arm. Edit: Removed orbital probes ability to be used as an orbital boom bot as it could damage ground units and be used as a cheap snipe. Increased commander move speed from 13/10 to 16/16",
     "author": "TheEffectTheCause",
     "version": "1.1",
     "build": "108271",
