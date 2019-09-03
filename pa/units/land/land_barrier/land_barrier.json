@@ -11,7 +11,7 @@
 	"mesh_bounds": [5, 5, 14],
 	"placement_size": [4, 4],
 	"area_build_separation": 0.5,
-	"unit_types": ["UNITTYPE_Structure", "UNITTYPE_Basic", "UNITTYPE_Wall", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_CmdBuild", "UNITTYPE_CombatFabBuild"],
+	"unit_types": ["UNITTYPE_Structure", "UNITTYPE_Basic", "UNITTYPE_Wall", "UNITTYPE_FabBuild", "UNITTYPE_FabAdvBuild", "UNITTYPE_CmdBuild", "UNITTYPE_CombatFabAdvBuild"],
 	"physics": {
 		"type": "Structure",
 		"shape": "Box",
