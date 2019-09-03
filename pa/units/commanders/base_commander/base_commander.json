@@ -24,7 +24,7 @@
   },
   "production": {
     "energy": 2400,
-    "metal": 22
+    "metal": 17
   },
   "storage": {
     "energy": 45000,
@@ -54,10 +54,10 @@
   },
   "navigation": {
     "type": "amphibious",
-    "acceleration": 60,
+    "acceleration": 120,
     "brake": -1,
-    "move_speed": 13,
-    "turn_speed": 160,
+    "move_speed": 16,
+    "turn_speed": 260,
     "turn_in_place": false,
     "park_stamp": {
       "shape": "sphere",
