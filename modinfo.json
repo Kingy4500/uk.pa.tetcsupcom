@@ -4,7 +4,7 @@
     "display_name": "The Super Commander Mod",
     "description": "Makes the commander a powerhouse on the field with an upgraded uber cannon, health, speed and build arm. Edit: Removed orbital probes ability to be used as an orbital boom bot as it could damage ground units and be used as a cheap snipe. Increased commander move speed from 13/10 to 16/16, Decreased commander build arm metal value from 50 to 35, Decreased Uber Cannon Damage from 3000 to 2000",
     "author": "TheEffectTheCause",
-    "version": "1.12",
+    "version": "1.13",
     "build": "108271",
     "date": "2019/09/03",
     "signature": "not yet implemented",
